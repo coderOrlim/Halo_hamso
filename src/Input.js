@@ -1,14 +1,15 @@
 import PropTypes from "prop-types";
-import styles from "./Input.css";
 function Input(props){
     return (
         <input 
         id = {props.id} 
+        name={props.name}
         type = {props.type}
         onChange={props.onChange} 
-        className={styles.input} 
+        className={props.className} 
         placeholder={props.placeholder_text}
-        value={props.value}>
+        value={props.value}
+        check={props.checked}>
             
         </input>
     );

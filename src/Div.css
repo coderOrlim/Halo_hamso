@@ -2,6 +2,8 @@ div{
     background-color:white;
 }
 main{
+    width:540;
+    margin:0 auto;
     text-align : center;
 }
 header{
